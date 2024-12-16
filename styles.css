@@ -139,9 +139,19 @@ strong {
     margin: 0;
 }
 
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
 .grow {
     gap: 50px;
     background-color: #F6FBFF;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .content {
@@ -149,11 +159,11 @@ strong {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    margin: 0 100px;
+    margin: 0 200px;
 }
 
 .headline, .image {
-    flex: 1;
+    flex: 2;
 }
 
 .grow img {
